@@ -298,9 +298,23 @@ img {
 	color: white;
 	font-size: 24px;
 }
-
+.cred-text {
+	text-align: center;
+	margin: 100px 0 -50px;
+}
+.cred-text a {
+	color: goldenrod;
+	text-decoration: none;
+}
+.cred-text a:hover {
+	text-decoration: underline;
+}
 .social-media {
 	text-align:center;
+}
+
+#thank-you {
+	text-align: center;
 }
 
 /* Forms
