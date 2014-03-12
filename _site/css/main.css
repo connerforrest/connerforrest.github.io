@@ -131,9 +131,9 @@ body {
 	font-size: 1.6rem;
 	font-weight: 300;
 	line-height: 1.625;
-	/* Justify text */
+	/* Justify text 
 	text-align:justify;
-	text-justify:inter-word;
+	text-justify:inter-word;*/
 }
 
 /*a,
@@ -359,7 +359,7 @@ input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover,
 .entry-content .button:hover {
-	background-color: #f15123;
+	background-color: goldenrod;
 }
 
 .entry-content .button:hover {
@@ -415,6 +415,15 @@ Structure and Layout
 
 /* Site Containers
 --------------------------------------------- */
+
+#social-icons {
+	overflow: hidden;
+	margin: 25px 0;
+}
+
+#social-icons img {
+	width: 33%;
+}
 
 /*.site-inner,*/
 .wrap {
@@ -792,7 +801,7 @@ Plugins
 }
 
 .enews-widget input[type="submit"] {
-	background-color: #f15123;
+	background-color: goldenrod;
 	color: #fff;
 	margin: 0;
 	width: 100%;
@@ -1223,7 +1232,7 @@ Content Area
 
 .archive-pagination li a:hover,
 .archive-pagination li.active a {
-	background-color: #f15123;
+	background-color: goldenrod;
 }
 
 .entry-pagination a {
