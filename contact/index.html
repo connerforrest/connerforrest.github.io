@@ -4,9 +4,7 @@ title: Contact
 ---
 
 
-<p>To get in touch with me, drop me a note using the form below. I will do my best to answer every email, but feel free to connect on social media if you do not hear back.</p>
-
-{% include social.html %}
+<p>To get in touch with me, drop me a note using the form below. I will do my best to answer every email, but feel free to <a href="#social">connect on social media</a> if you do not hear back.</p>
 
 <div id="form" style="overflow:hidden;">
 	<form autocomplete="on" action="http://getsimpleform.com/messages?form_api_token=d1c02d822194742880fd73ed47041b92" method="post">
@@ -31,6 +29,9 @@ title: Contact
 		</div>
 		<input class="alignright" type="submit" value="Send" />
 	</form>
+</div>
+<div><a id="social"></a>
+{% include social.html %}
 </div>
 </div>
 <div>
