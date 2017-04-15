@@ -1,3 +1,3 @@
 name: Conner Forrest
-markdown: redcarpet
+markdown: kramdown
 highlighter: true
